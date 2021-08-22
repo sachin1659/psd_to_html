@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+  }
+
+#head{
+    background-image: url('img_top.jpg');
+    height: 600px;
+}
+ul {
+    padding: 0;
+    text-align: center;
+  }
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  ul li img{
+      width:120px;
+  }
+  hr{
+      width:20%;
+  }
+  #head-01{
+    text-align: center;
+    color: white;
+    background-color:rgb(21, 21, 37);
+    opacity: 0.5;
+    width: 720px;
+    height: 250px;
+    padding: 25px 50px 25px 50px;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right:220px;
+  }
+  #content{
+      height: 714px;
+      /* border: 1px solid black; */
+  }
+  #content-1{
+      margin: 10px 250px 0px 220px;
+      text-align: left;
+      border-left: 2px solid grey;
+  }
+  #content-2{
+    margin: 280px 220px 50px 220px;
+    text-align: left;
+    height: 350px;
+  }
+
+  #content-2_1{
+    width:33%;
+    height: 350px;
+    float:left;
+    background-image: url("side.jpeg");
+  }
+  
+  #contact{
+    background-image: url("contact.jpeg");
+    height:600px;
+    margin-top: -14px;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .contact01{
+    background-color:rgb(21, 21, 37);
+    opacity: 0.5;
+    width: 720px;
+    height: 440px;
+    margin-left: 220px;
+    margin-top: 50px;
+    padding: 25px 50px 25px 50px;
+  }
+  .contact01 p{
+    font-size: small;
+    color: white;
+  }
+  .contact01 h3{
+    color: white;
+  }
+  #about{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .about01{
+    width: 720px;
+    height: 180px;
+    margin-left: 220px;
+    border: 1px solid black;
+    padding: 25px 50px 25px 50px;
+  }
+  .about02{
+    width: 820px;
+    height: 250px;
+    margin-left: 220px;
+    border: 1px solid black;
+  }
+  .img01{
+    width:33%;
+    float: left;
+    height:200px;
+    border: 1px solid black;
+  }
+  .img02{
+    width:33%;
+    float:left;
+    height: 200px;
+    border: 1px solid black;
+  }
+  .img03{
+    width:33%;
+    float:left;
+    height:200px;
+    border:1px solid black;
+  }
