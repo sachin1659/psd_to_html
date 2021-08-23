@@ -5,7 +5,7 @@
   }
 
 
-#head{
+.head{
     background-image: url('img_top.jpg');
     height: 600px;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ ul {
   hr{
       width:20%;
   }
-  #head-01{
+  .head-01{
     text-align: center;
     color: white;
     background-color:rgb(21, 21, 37);
@@ -38,29 +38,29 @@ ul {
     margin-left: 220px;
     margin-right:220px;
   }
-  #content{
+  .content{
       height: 714px;
-      /* border: 1px solid black; */
+      border: 1px solid black;
   }
-  #content-1{
+  .content-1{
       margin: 10px 250px 0px 220px;
       text-align: left;
       border-left: 2px solid grey;
   }
-  #content-2{
+  .content-2{
     margin: 280px 220px 50px 220px;
     text-align: left;
     height: 350px;
   }
 
-  #content-2_1{
+  .content-2_1{
     width:33%;
     height: 350px;
     float:left;
     background-image: url("side.jpeg");
   }
   
-  #contact{
+  .contact{
     background-image: url("contact.jpeg");
     height:600px;
     margin-top: -14px;
@@ -156,7 +156,7 @@ ul {
   .contact01 h3{
     color: white;
   }
-  #about{
+  .about{
     height: 500px;
     width: 100%;
     background-color: whitesmoke;
