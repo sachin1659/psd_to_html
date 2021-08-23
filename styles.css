@@ -4,9 +4,13 @@
     padding:0px;
   }
 
+
 #head{
     background-image: url('img_top.jpg');
     height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 ul {
     padding: 0;
@@ -27,7 +31,7 @@ ul {
     color: white;
     background-color:rgb(21, 21, 37);
     opacity: 0.5;
-    width: 720px;
+    width: 800px;
     height: 250px;
     padding: 25px 50px 25px 50px;
     margin-top: 100px;
@@ -66,15 +70,55 @@ ul {
     background-size: cover;
   }
 
-  .contact01{
-    background-color:rgb(21, 21, 37);
-    opacity: 0.5;
-    width: 720px;
+  .contact00{
+    background-color:rgba(21, 21, 37,0.5);
+    /* opacity: 0.5; */
+
+    width: 800px;
     height: 440px;
     margin-left: 220px;
     margin-top: 50px;
     padding: 25px 50px 25px 50px;
   }
+
+  .contact01{
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+  }
+
+  .contact02{
+    width: 27%;
+    float:left;
+    position: absolute;
+    z-index: 1;
+    left: 674px;
+    height: 550px;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    background: white;
+    padding: 0px 10px 10px 0px;
+  }
+
+  .contact02 h1 {
+    text-align: center;
+    color: #08355e;
+    padding: 12px 20px;
+  }
+
+  .contact02 input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+  .contact02 p {
+    margin: 10px 20px;
+    font-size: 12px;
+  }
+
   .contact01 p{
     font-size: small;
     color: white;
@@ -85,36 +129,90 @@ ul {
   #about{
     height: 500px;
     width: 100%;
-    border: 1px solid black;
+    background-color: whitesmoke;
   }
   .about01{
-    width: 720px;
+    width: 800px;
     height: 180px;
     margin-left: 220px;
-    border: 1px solid black;
     padding: 25px 50px 25px 50px;
   }
+  .about01 h1{
+    color:#08355e;
+  }
+  .about01 hr{
+    color: teal;
+    border: 2px solid;
+  }
   .about02{
-    width: 820px;
+    width: 900px;
     height: 250px;
     margin-left: 220px;
-    border: 1px solid black;
-  }
-  .img01{
+    }
+  .about_img{
     width:33%;
     float: left;
     height:200px;
-    border: 1px solid black;
   }
-  .img02{
-    width:33%;
-    float:left;
+  .about_img img{
+    width:250px;
     height: 200px;
-    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 50%;
   }
-  .img03{
+  .about_img h3{
+    padding-top: 20px;
+    text-align: center;
+    color: #08355e;
+  }
+  .bottom{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    /* background-color: #08355e; */
+  }
+
+  .bottom_img{
+    width: 100%;
+    height: 80px;
+  }
+  .bottom_img img{
+    width: 100%;
+    height: 80px;
+  }
+  .bottom01{
+    width: 100%;
+    height: 220px;
+    background-color: #08355e;
+  }
+
+  .bottom02{
+    margin-left: 220px;
+    height: 220px;
+    width: 800px;
+    padding: 25px 50px 25px 50px;
+  }
+  .bottom_content{
+    float: left;
     width:33%;
-    float:left;
-    height:200px;
-    border:1px solid black;
+    height: 195px;
+    color: white;
   }
+  .social_logo{
+    margin-top: 30px;
+    float: left;
+    width: 32%;
+    height: 20px;
+  }
+  .main_logo{
+    margin-top: 20px;
+    width: 260px;
+    height: 75px;
+    overflow: hidden;
+  }
+  .main_logo img{
+    width:100%;
+  }
+  
+
+
