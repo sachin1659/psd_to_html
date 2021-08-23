@@ -93,7 +93,7 @@ ul {
     position: absolute;
     z-index: 1;
     left: 674px;
-    height: 550px;
+    height: 570px;
     border-left: 2px solid grey;
     border-bottom: 2px solid grey;
     background: white;
@@ -113,6 +113,36 @@ ul {
   box-sizing: border-box;
   border: 1px solid #555;
   outline: none;
+}
+
+ .contact02 input[type=radio] {
+  margin: 8px 20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+ }
+
+ textarea {
+  width: 90%;
+  height: 80px;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  resize: none;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 140px;
+  cursor: pointer;
 }
   .contact02 p {
     margin: 10px 20px;
