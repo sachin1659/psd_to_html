@@ -6,7 +6,7 @@
 
 
 .head{
-    background-image: url('img_top.jpg');
+    background-image: url('contact.jpeg');
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
@@ -38,12 +38,67 @@ ul {
     margin-left: 220px;
     margin-right:220px;
   }
+  .head::after{
+    content: "";
+    background-color: #08355e;
+    height: 80px;
+    width: 31%;
+    top: 540px;
+    right: 287px;
+    position: absolute;
+    z-index: 999;
+  }
   .content{
-      height: 714px;
-      border: 1px solid black;
+      height: 750px;
+      overflow: hidden;
+  }
+  .content_img{
+    background-image: url("content.jpg");
+    margin: 50px 220px 0px 220px;
+    height: 200px;
+    width: 900px;
+  }
+  .content0{
+    margin: 50px 350px 0px 220px;
+    height: 300px;
+    padding: 25px 50px 10px 50px;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+  }
+  .content0::after{
+    content: "";
+    background-color: #08355e;
+    height: 340px;
+    width: 5%;
+    top: 540px;
+    right: 220px;
+    position: absolute;
+    z-index: 999;
+  }
+  .content01{
+    width: 100%;
+    height: 90px;
+  }
+  .content02{
+    width: 100%;
+    height: 210px;
+  }
+  .content021{
+    width:60%;
+    float: left;
+    height: 210px;
+  }
+  .content022{
+    width: 39%;
+    float: left;
+    height: 210px;
+  }
+  .content1{
+    margin: 30px 192px 0px 220px;
+    height: 300px;
   }
   .content-1{
-      margin: 10px 250px 0px 220px;
+      margin: 50px 250px 0px 220px;
       text-align: left;
       border-left: 2px solid grey;
   }
@@ -55,11 +110,10 @@ ul {
 
   .content-2_1{
     width:33%;
-    height: 350px;
+    height: 319px;
     float:left;
     background-image: url("side.jpeg");
   }
-  
   .contact{
     background-image: url("contact.jpeg");
     height:600px;
@@ -133,7 +187,7 @@ ul {
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #09f010; /* Green */
   border: none;
   color: white;
   padding: 10px 24px;
